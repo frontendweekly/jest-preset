@@ -1,0 +1,40 @@
+{
+  "name": "@frontendweekly/jest-preset-molle",
+  "version": "2.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "description": "jest preset for frontendweekly project",
+  "main": "jest-preset.js",
+  "files": [
+    "jest-preset.js",
+    "jest-setup.js",
+    "jest-common.js"
+  ],
+  "keywords": [],
+  "author": "Yuya Saito <hello@studiomohawk.com> (https://github.com/studiomohawk)",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/frontendweekly",
+    "access": "public"
+  },
+  "peerDependencies": {
+    "jest": "*",
+    "eslint": "*",
+    "stylelint": "*"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "jest": "^26.6.3",
+    "stylelint": "^13.13.1"
+  },
+  "dependencies": {
+    "@testing-library/dom": "^8.5.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "jest-date-mock": "^1.0.8",
+    "jest-fetch-mock": "^3.0.3",
+    "jest-runner-eslint": "^0.10.1",
+    "jest-runner-stylelint": "^2.3.7",
+    "jest-watch-select-projects": "^2.0.0"
+  }
+}
