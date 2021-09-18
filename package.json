@@ -1,6 +1,6 @@
 {
-  "name": "@frontendweekly/jest-preset-molle",
-  "version": "2.0.0",
+  "name": "@frontendweekly/molle-jest-preset",
+  "version": "1.0.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,10 +14,6 @@
   "keywords": [],
   "author": "Yuya Saito <hello@studiomohawk.com> (https://github.com/studiomohawk)",
   "license": "MIT",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/frontendweekly",
-    "access": "public"
-  },
   "peerDependencies": {
     "jest": "*",
     "eslint": "*",
@@ -39,10 +35,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/frontendweekly/jest-preset-molle.git"
+    "url": "git+https://github.com/frontendweekly/molle-jest-preset.git"
   },
   "bugs": {
-    "url": "https://github.com/frontendweekly/jest-preset-molle/issues"
+    "url": "https://github.com/frontendweekly/molle-jest-preset/issues"
   },
-  "homepage": "https://github.com/frontendweekly/jest-preset-molle#readme"
+  "homepage": "https://github.com/frontendweekly/molle-jest-preset#readme"
 }
