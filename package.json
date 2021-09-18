@@ -1,8 +1,10 @@
 {
-  "name": "@frontendweekly/molle-jest-preset",
-  "version": "1.0.1",
+  "name": "@frontendweekly/jest-preset",
+  "version": "1.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --fix",
+    "prepare": "husky install"
   },
   "description": "jest preset for frontendweekly project",
   "main": "jest-preset.js",
@@ -20,8 +22,10 @@
     "stylelint": "*"
   },
   "devDependencies": {
+    "@frontendweekly/eslint-config": "^1.0.0",
     "eslint": "^7.32.0",
     "jest": "^26.6.3",
+    "pretty-quick": "^3.1.1",
     "stylelint": "^13.13.1"
   },
   "dependencies": {
@@ -33,12 +37,15 @@
     "jest-runner-stylelint": "^2.3.7",
     "jest-watch-select-projects": "^2.0.0"
   },
+  "engines": {
+    "node": "^10.12.0 || >=12.0.0"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/frontendweekly/molle-jest-preset.git"
+    "url": "git+https://github.com/frontendweekly/jest-preset.git"
   },
   "bugs": {
-    "url": "https://github.com/frontendweekly/molle-jest-preset/issues"
+    "url": "https://github.com/frontendweekly/jest-preset/issues"
   },
-  "homepage": "https://github.com/frontendweekly/molle-jest-preset#readme"
+  "homepage": "https://github.com/frontendweekly/jest-preset#readme"
 }
